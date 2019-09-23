@@ -37,7 +37,7 @@
             <Label prefHeight="26.0" prefWidth="192.0" text="Username :" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <Label prefHeight="26.0" prefWidth="192.0" text="Password : " GridPane.columnIndex="1" GridPane.rowIndex="2" />
             <PasswordField fx:id="pwfield1" promptText="letmepass" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-            <Button fx:id="btnNext" mnemonicParsing="false" onAction="#changeScreenButtonPushed" text="Go to Tableview" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button fx:id="btnNext" mnemonicParsing="false" onAction="#change2GameScreenButtonPushed" text="Go to Game Tableview" GridPane.columnIndex="1" GridPane.rowIndex="3" />
          </children>
       </GridPane>
    </children>

@@ -57,6 +57,21 @@ public class StartController implements Initializable {
         window.setScene(tableViewScene);
         window.show();
     }
+    /**
+     * When this method is called, it will change the Scene to
+     * a TableView example
+     */
+    public void change2GameScreenButtonPushed(ActionEvent event) throws IOException
+    {
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("GameView.fxml"));
+        Scene tableViewScene = new Scene(tableViewParent);
+
+        //This line gets the Stage information
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+        window.setScene(tableViewScene);
+        window.show();
+    }
     @FXML
     private void handleBtnExitAction(ActionEvent event){
         Platform.exit();
